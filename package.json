@@ -1,0 +1,12 @@
+{
+  "name": "companion-module-hubitat-controller",
+  "version": "1.0.0",
+  "description": "A Companion module to control Hubitat smart home devices",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garth Braithwaite <garthdb@gmail.com> (https://garthdb.com)",
+  "license": "Apache-2.0"
+}
