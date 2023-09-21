@@ -8,5 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Garth Braithwaite <garthdb@gmail.com> (https://garthdb.com)",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": "git+https://github.com/GarthDB/companion-module-hubitat-controller.git",
+  "bugs": "https://github.com/GarthDB/companion-module-hubitat-controller/issues",
+  "dependencies": {
+    "@companion-module/base": "~1.2.1",
+    "object-path": "^0.11.8",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^1.0.2"
+  }
 }
