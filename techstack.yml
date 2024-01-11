@@ -1,0 +1,82 @@
+repo_name: GarthDB/companion-module-hubitat-controller
+report_id: d890a1c8813cd2a2ce9c5e59a2ee177c
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T00:09:33+00:00'
+requested_by: GarthDB
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller
+  detection_source: Repo Metadata
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Garth Braithwaite
+  last_updated_on: 2023-09-10 18:40:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: garthdb
+  last_updated_on: 2023-09-21 22:10:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Garth Braithwaite
+  last_updated_on: 2023-09-10 18:40:24.000000000 Z
+- name: object-path
+  description: Access deep object properties using a path
+  package_url: https://www.npmjs.com/object-path
+  version: 0.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17303/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/GarthDB/companion-module-hubitat-controller/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2023-09-21 22:10:52.000000000 Z
